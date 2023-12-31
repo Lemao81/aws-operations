@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>AWSOperations</RootNamespace>
+    <UserSecretsId>bedaac71-b8e4-4de2-ab0d-00e3d7fb3fe9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.300" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.305" />
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.300.28" />
+  </ItemGroup>
+
+</Project>
